@@ -9,7 +9,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(name = "tbl_product")
+@Table(name = "tbl_products")
 @Data  @AllArgsConstructor @NoArgsConstructor @Builder
 public class Product {
 

@@ -1,14 +1,17 @@
 package academy.digitallab.store.service.product.domain;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
 @Entity
 @Table(name = "tbl_categories")
 @Data
-@Builder
+@Builder @AllArgsConstructor
+@NoArgsConstructor
 public class Category {
 
     @Id

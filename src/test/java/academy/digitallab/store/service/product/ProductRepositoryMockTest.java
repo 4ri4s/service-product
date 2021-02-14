@@ -25,7 +25,7 @@ public class ProductRepositoryMockTest {
                 .name("Jamon")
                 .category(Category.builder().id(1L).name("Embutidos").build())
                 .description("Jamon cocido sin sal")
-                .status(Status.Created)
+                .status(Status.CREATED)
                 .price(Double.parseDouble( "1250.44"))
                 .stock(Double.parseDouble("10"))
                 .createAt(new Date())
