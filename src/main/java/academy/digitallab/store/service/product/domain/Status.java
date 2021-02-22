@@ -8,5 +8,7 @@ public enum Status {
     Discontinued,
     WillBeAvailableSoon,
     Available,
-    CREATED
+    CREATED,
+    UPDATED,
+    DELETED
 }
